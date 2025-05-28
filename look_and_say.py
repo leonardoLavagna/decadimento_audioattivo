@@ -82,7 +82,7 @@ def find_known_atoms(term, atom_list):
 # -------------------------------
 st.set_page_config(page_title="Decadimento Audioattivo", layout="centered")
 st.title("🎲 Decadimento Audioattivo (Look-and-Say)")
-
+st.markdown("""Questa applicazione ti permette di esplorare il [gioco look-and-say](https://it.wikipedia.org/wiki/Decadimento_audioattivo). Se ti interessa saperne di più vedi questo [blog post](https://geometrino.wordpress.com/2025/05/28/il-teorema-cosmologico-di-conway-raccontato-con-il-sorriso/)""")
 menu = st.sidebar.radio("📚 Menu", ["Simulazione", "Analisi atomi", "Dati & grafici"])
 
 # Input globale
